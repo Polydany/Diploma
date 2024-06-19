@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Верхняя фиолетовая полоса -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#800080" />
+    <!-- Первая полоса -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <View
+        android:layout_width="210dp"
+        android:layout_height="10dp"
+        android:background="#800080"
+        android:layout_gravity="end" />
+
+    <!-- Отступ между полосами -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Вторая полоса -->
+    <View
+        android:layout_width="152dp"
+        android:layout_height="10dp"
+        android:background="#800080"
+        android:layout_gravity="end" />
+
+    <!-- Отступ между полосами -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Третья полоса -->
+    <View
+        android:layout_width="105dp"
+        android:layout_height="10dp"
+        android:background="#800080"
+        android:layout_gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <!-- Кнопка imagedop -->
+    <Button
+        android:id="@+id/imagedop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="imagedop" />
+
+    <!-- Пространство между верхней кнопкой и рядом кнопок -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Ряд из трех кнопок -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настройки" />
+
+        <Button
+            android:id="@+id/start_record_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:text="@string/start_recording" />
+
+        <Button
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="галерея" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/stop_record_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:text="@string/stop_recording" />
+    <TextView
+        android:id="@+id/count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <!-- Пространство между рядом кнопок и нижней фиолетовой полосой -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="105dp"
+        android:layout_height="10dp"
+        android:background="#800080"
+        android:layout_gravity="start" />
+
+    <!-- Отступ между полосами -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Вторая полоса -->
+    <View
+        android:layout_width="152dp"
+        android:layout_height="10dp"
+        android:background="#800080"
+        android:layout_gravity="start" />
+
+    <!-- Отступ между полосами -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Третья полоса -->
+    <View
+        android:layout_width="210dp"
+        android:layout_height="10dp"
+        android:background="#800080"
+        android:layout_gravity="start" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Нижняя фиолетовая полоса -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#800080" />
+</LinearLayout>
